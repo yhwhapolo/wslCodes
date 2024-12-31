@@ -1,0 +1,37 @@
+Os tipos primitivos usados para representar dados simples são:
+~ int (inteiro): armazena números inteiros positivos e negativos
+~ float: armazena números quebrados com precisão simples
+~ double: armazena números quebrados com mais precisão
+~ char: armazena um caractere, seja letra, número, símbolo, etc
+~ bool: armazena os valores booleanos 'true' ou 'false'
+~ string: armazena sequências de caracteres - palavras basicamente
+
+Podemos ainda declarar uma variável com o tipo "auto" que automaticamente identifica o tipo de dado atribuído a essa variável. Isso desde que inicializemos imediatamente a variável. Ex.:
+
+auto <var-nome> = <var-valor>; isso funciona
+auto <var-name>; isso não funciona, tem que inicializar a variável
+
+_
+
+O laço while executa um bloco de código enquanto uma dada condição for verdadeira. Quando ela se torna falsa, saímos do laço.
+
+'return' sai da função inteira, 'break' sai do laço apenas.
+
+O loop 'for' basicamente faz o mesmo que o while e vice-versa, no entanto eles se expressam de formas diferentes.
+
+_
+
+Sobre funções, a primeira coisa a se fazer ao declará-las é definir o tipo de dado que ela vai retornar, ex.: int, char, string, etc.
+
+Após definir o tipo do retorno e nomear a função, defina o tipo e o nome dos parâmetros que são representados como variáveis dentro da função.
+
+Para utilizar uma função, apenas escreva o nome dela e dê a ela argumentos que serão utilizados como parâmetros na função.
+
+Ex.: int add(int x, int y){ return x + y; }
+-> a função se chama 'add' e retorna um tipo int
+
+-> 'int x' e 'int y' dentro dos parêntesis são variáveis do tipo int chamados de parâmetros
+
+-> a função retorna a soma dos parâmetros x e y
+
+-> podemos utilizar a função chamando-a e dando lhe argumentos (nesse caso os argumentos devem ser números do tipo int que serão colocados no lugar dos parâmetros) Ex.: 'add(77, 33)' retonará: '110'
